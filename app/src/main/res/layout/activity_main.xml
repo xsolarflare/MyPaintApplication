@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light">
+
+    <com.example.mypaintapplication.view.MyView
+        android:id="@+id/my_draw"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"/>
+
+
+    <!--<androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fc_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:name="com.example.MyPaintApplication.fragment.FirstFragment"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_f1"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+
+            android:backgroundTint="@color/dark"
+
+            android:text="СИНИЙ"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+
+
+        <Button
+            android:id="@+id/btn_f2"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+
+            android:backgroundTint="@color/dark"
+
+            android:text="КРАСНЫЙ"
+            android:textColor="@color/red"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_f3"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+
+            android:backgroundTint="@color/dark"
+
+            android:text="ЗЕЛЁНЫЙ"
+            android:textColor="@color/green"
+            android:textSize="12sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
